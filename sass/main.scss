@@ -39,7 +39,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: Cardo, ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-family: $font-serif;
     /* serif for the headings */
 }
 
@@ -64,7 +64,7 @@ ul {
 ***********************************************/
 
 .bg-header {
-    background-color: #fff;
+    background-color: $color-white;
     background-color: $color-light-blue;
     color: $color-dark-grey;
     border-bottom: 1rem solid $color-med-blue;
@@ -93,7 +93,7 @@ ul {
 }
 
 .bg-content1 {
-    background-color: #fff;
+    background-color: $color-white;
     color: $color-dark-grey;
 }
 
@@ -103,7 +103,7 @@ ul {
 }
 
 .bg-footer {
-    background-color: #fff;
+    background-color: $color-white;
     color: $color-light-grey;
 }
 
